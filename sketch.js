@@ -95,7 +95,7 @@ function keyPressed(){
 }
 
 async function getTime(){
-    var response = await fetch("http://worldtimeapi.org/api/timezone/America/Chicago");
+    var response = await fetch("https://worldtimeapi.org/api/timezone/America/Chicago");
     console.log(response);
     var responseData = await response.json();
     console.log(responseData);
